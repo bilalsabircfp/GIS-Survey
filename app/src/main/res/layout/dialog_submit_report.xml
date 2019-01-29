@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:paddingLeft="9dp"
+                android:gravity="center_vertical"
+                android:text="Review Report"
+                android:layout_margin="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:id="@+id/textView" />
+
+
+            <Button
+                android:id="@+id/cross"
+                android:textSize="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:text="X"
+                android:layout_marginLeft="130dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textSize="16dp"
+                android:text="Area "/>
+
+            <TextView
+                android:text="***"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textSize="16dp"
+                android:id="@+id/area"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/l41">
+
+            <TextView
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textSize="16dp"
+                android:id="@+id/dd"
+                android:text="Food Type "/>
+
+            <TextView
+                android:text="***"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textSize="16dp"
+                android:id="@+id/f_typ"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/a13">
+
+            <TextView
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textSize="16dp"
+                android:text="Shop"/>
+
+            <TextView
+                android:text="***"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textSize="16dp"
+                android:id="@+id/shop_n"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textSize="16dp"
+                android:text="Shop Owner"/>
+
+            <TextView
+                android:text="***"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textSize="16dp"
+                android:id="@+id/shop_o"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/a121">
+
+            <TextView
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textSize="16dp"
+                android:text="Number"/>
+
+            <TextView
+                android:text="***"
+                android:textColor="@color/colorPrimaryDark"    android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textSize="16dp"
+                android:id="@+id/numb"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/a12">
+
+            <TextView
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textSize="16dp"
+                android:id="@+id/ddd"
+                android:text="Workers"/>
+
+            <TextView
+                android:text="***"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textSize="16dp"
+                android:id="@+id/worker"
+                />
+
+        </LinearLayout>
+
+
+        <include layout="@layout/item_divider"></include>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textSize="16dp"
+                android:text="Remarks"/>
+
+            <TextView
+                android:text="New Patient"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textSize="16dp"
+                android:id="@+id/remak"
+                />
+
+        </LinearLayout>
+
+
+        <include layout="@layout/item_divider"></include>
+
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#ffffff"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:textSize="16dp"
+                android:id="@+id/mg"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <include layout="@layout/item_divider"></include>
+
+
+
+
+
+        <Button
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn"
+            android:minWidth="110dp"
+            android:layout_gravity="center"
+            android:text="Send"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
